@@ -1,0 +1,32 @@
+p{
+color: rgb(0, 0, 0);
+margin-top: 40px;
+ text-align: center; 
+ font-size: 60px; 
+}
+body{
+    background-image: linear-gradient(90deg, #88888e 15%, rgb(211, 179, 73) 35%, #523d43 100%);    
+
+}
+#container{
+ text-align: center;
+ width: 400px;
+ height: 200px;  
+ margin-left: 550px; 
+ border-radius: 20px;
+}
+h6{
+ font-size: x-large;
+ color: rgb(16, 26, 36);   
+}
+#task{
+ font-size: x-large;
+ margin-bottom: 500px;  
+ border-radius: 11px;
+ border: 0px; 
+}
+#button1{
+ font-size: x-large;
+ border-radius: 20px; 
+ border:0px  
+}
