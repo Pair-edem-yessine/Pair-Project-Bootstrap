@@ -18,5 +18,6 @@ var firstname=document.getElementById('first').value
 
  alert('Sign up successful! You can now log in.');
 
-window.location.href = "";
+window.location.href = "Sign In\Sign In.html";
+
 })
