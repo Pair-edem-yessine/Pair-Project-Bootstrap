@@ -8,7 +8,8 @@ var firstname=document.getElementById('first').value
  if (password!==confirmpassword) {
     alert('you must enter the same password!')
 return
- }
+ } 
+ console.log("ge")
 
  localStorage.setItem('first',firstname)
  localStorage.setItem('last',lastname)
