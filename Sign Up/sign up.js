@@ -1,5 +1,4 @@
 document.getElementById('button1').addEventListener('click',function(){
-   console.log('hello')
 var firstname=document.getElementById('first').value
  var lastname=document.getElementById('last').value
  var  adressemail=document.getElementById('email').value
@@ -9,14 +8,13 @@ var firstname=document.getElementById('first').value
     alert('you must enter the same password!')
 return
  } 
- console.log("ge")
 
  localStorage.setItem('first',firstname)
  localStorage.setItem('last',lastname)
  localStorage.setItem('email', adressemail)
  localStorage.setItem('pass', password)
 
- alert('Sign up successful! You can now log in.');
+ alert('Sign up successful! You can now sign in.');
 
-window.location.href="../Sign In/Sign In.html";
+window.location.assign("../Sign In/Sign In.html");
 })
