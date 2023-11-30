@@ -27,12 +27,16 @@ h1{
 }
 
 
+#password{
+        margin-left: 20px;
+        font-size: x-large;
+        border-radius: 20px;  
+}
 
-.input{
-
-margin-left: 20px;
-font-size: x-large;
-border-radius: 20px;
+#email{
+    margin-left: 20px;
+    font-size: x-large;
+    border-radius: 20px;  
 }
 
 
