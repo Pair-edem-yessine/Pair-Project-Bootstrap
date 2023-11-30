@@ -1,17 +1,16 @@
-const email = localStorage.getItem('email',input.value)
-const password = localStorage.getItem('pass',input.value)
 
-var inputedEmail = document.getElementById("email").value;
-var inputedPassword = document.getElementById("pass").value;  
+var array = [] 
+array[0] = localStorage.getItem('email')
+array[1] = localStorage.getItem('pass')
 
+function login(){ 
+var inputedEmail = document.getElementById("email").value 
+var inputedPass = document.getElementById("password").value
 
-document.getElementById("button1").addEventListener('click',function(){
+if ((array[0]===inputedEmail)&&(array[1]===inputedPass)){
 
-if((email===inputedEmail)&&(password===inputedPassword)){
-    alert('Hello , there');
-    window.location.href = "https://www.youtube.com/watch?v=zhI4D4DdKuY";
+window.location.assign("../todolist/todo.html")}
+
+else { alert ("wrong coordinations") }
 }
 
-else {'Thats wrong coordinations'}
-
-})
