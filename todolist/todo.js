@@ -14,6 +14,6 @@ $(document).ready(function () {
     $(document).on('click', '#removeButton', function() {
         $(this).parent().remove();
       });
-    })
+    } )
 
 
