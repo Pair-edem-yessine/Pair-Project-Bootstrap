@@ -60,6 +60,12 @@ text-align: center;
  #button2{
     font-size: xx-large;
  }
- img{
-  font-size: 1px;  
- }
+ .checked {
+    text-decoration: line-through;
+  }
+  #removeButton{
+    margin-left: 90px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: rgb(205, 113, 113);
+  }
